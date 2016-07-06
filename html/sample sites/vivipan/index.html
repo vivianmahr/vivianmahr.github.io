@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ViviPan</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/vivipan.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    
+    <body>
+        <header> 
+            <a href="#">
+                <img id="panpan" src="./images/panpan resized.png"/>
+                <img id="logo" src="./images/logo.png"/>
+            </a>
+        </header>
+        
+        <div id="search-bar">
+            <form id="search">
+                <div class="right">
+                    <button>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </div>
+                <div class="left">
+                    <input type="search" placeholder="Looking for something?"/>
+                </div>
+            </form>
+        </div>
+
+        <div class="navi-links unshown">
+            <div class="circle-div left">
+                <a>
+                    <span class="text">Recipes</span>
+                    <span class="glyphicon glyphicon-grain"></span>
+                </a>
+            </div>
+            <div class="circle-div right">
+                <a>
+                    <span class="text">Links</span>
+                    <span class="glyphicon glyphicon-bookmark"></span>
+                </a>
+            </div>
+                <div class="clearer"></div>
+        </div>
+        
+        <div id="content">
+            <div id="sidebar-left" class="sidebar">
+                
+                <div class="sidebar-header">
+                    <h3>Recipes</h3>
+                </div>
+                <div class="left-wrapper">
+                    <h4>
+                        By Category
+                    </h4>
+                    <ul>
+                        <li>
+                            <a>Breads</a> <!-- TODO - links to other pages -->
+                        </li>
+                        <li>
+                            <a>Deserts</a>
+                        </li>
+                    </ul>
+                    <h4>
+                        By Date
+                    </h4>
+                    <ul>
+                        <li>
+                            <a>2015</a>
+                            <ul>
+                                <li>
+                                    <a>January</a>
+                                    <ul>
+                                        <li>
+                                            <a>Post 1</a>
+                                        </li>
+                                        <li>
+                                            <a>Another Post</a>
+                                        </li>
+                                        <li>
+                                            <a>This should have a long name</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a>February</a>
+                                </li>
+                                <li>
+                                    <a>March</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="sidebar-right" class="sidebar">
+                <div class="sidebar-header">
+                    <h3>Links</h3>
+                </div>
+                <ul>
+                    <li>
+                        <a>
+                            Baker's Calculator
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Conversions
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            Substitutes
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            About
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            
+            <div id="center">
+                <div class="center-wrapper">
+                    <div class="post">
+
+                        <div class="header">
+                            <h2>Title of Something</h2>
+                            <h6>1/11/11 at 1:00pm</h6>
+                            <a class="recipe-link" >Recipe: Something</a>
+                        </div>
+
+                        <div class="entry">
+                                <div class="image third ralign">
+                                        <img src="./images/sample-cake.jpg"/>
+                                    <p class="note">Text about the image. This one has lots of text. It must overflow.</p>
+                                </div>    
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+                                Etiam dictum nisl vitae arcu aliquam rutrum. Phasellus mollis nulla et sollicitudin condimentum. Curabitur a mauris tincidunt, ornare nulla nec, cursus nulla. Aliquam erat volutpat. Phasellus fermentum est n venenatis congue. Ut eget diam purus. Praesent consectetur fringilla orci vitae viverra.Nam porta consectetur sodales. Fusce leo elit, consectetur eget orci id, fermentum lobortis lectus. Quisque efficitur ex quis velit gravida, id aliquet nulla volutpat. Donec cursus quam in massa iaculis ornare. Nulla nisl dolor, scelerisque a suscipit sed, sodales at mi. Morbi condimentum purus tristique arcu pharetra pharetra. Quisque mattis arcu ut dapibus ullamcorper. Aenean augue tellus, vestibulum sed pretium eu, venenatis at mi. Proin lacus ante, varius vitae ante sit amet, ultricies venenatis justo. 
+                            </p>
+                                <div class="image half lalign">
+                                    <img src="./images/sample-cake.jpg"/>
+                                    <p class="note">Text about the image.</p>
+                                </div>    
+                            <p>                                
+                                Nam porta est ut scelerisque blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam imperdiet, ex quis scelerisque sagittis, metus lectus elementum orci, ac laoreet orci augue sed quam. Nulla porta erat non luctus venenatis. Phasellus at velit hendrerit, hendrerit nunc a, rhoncus nisi. Integer non ex eget turpis ornare condimentum vel sed purus. Nam at congue mi. Proin lobortis dignissim erat, sit amet ultrices arcu auctor id. Phasellus ut mauris ut elit elementum ultrices vitae et lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer aliquet ex lorem, ac scelerisque leo maximus sit amet. Mauris ipsum dui, finibus quis pellentesque quis, feugiat eget nibh. Nulla et hendrerit neque. Ut consequat nibh id elit venenatis tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                            </p>
+                                <div class="image full calign">
+                                    <img src="./images/sample-cake.jpg"/>
+                                    <p class="note">Text about the image.</p>
+                                </div>
+                            <p>
+                                Sed augue lacus, auctor eget augue a, viverra dapibus justo. Sed gravida imperdiet sollicitudin. Ut malesuada nisi quam, at sollicitudin lacus tincidunt eu. Integer cursus, augue a auctor vulputate, dolor diam vehicula arcu, eleifend consequat augue sapien eu orci. Maecenas placerat viverra turpis quis bibendum. In vitae lectus et eros tempus vestibulum. Donec id tempus nulla. Curabitur arcu dui, lobortis ut ligula ac, mattis egestas velit. Cras eget nulla nec purus gravida vehicula. Sed vel lectus vitae lectus dictum lacinia. Cras ut tincidunt sapien. Mauris mattis nunc gravida lectus faucibus, eu pretium nibh tempus. Suspendisse eget lacinia eros, et pretium lorem. Proin ac justo a sem varius rhoncus vitae et dui. Suspendisse vel metus quis tellus aliquet fringilla aliquet a massa. Nam ullamcorper, libero fermentum scelerisque pellentesque, felis velit faucibus enim, sit amet maximus nunc leo varius tellus. Vivamus aliquam ex eu felis vulputate, eu auctor nulla bibendum. Etiam non lorem ultrices, sollicitudin nulla sit amet, tempor sapien. Nunc quis lacinia enim. Duis tempor lobortis tristique.
+                                <a>Some in paragraph link.</a>
+                                <a href="">Some in paragraph link.</a>
+                            </p>
+                                <div class="image fourth calign">
+                                    <img src="./images/sample-cake.jpg"/>
+                                    <p class="note">Text about the image.</p>
+                                </div>    
+                        </div>
+
+                        <div class="recipe">
+                            <h2>Dum Dum Drops</h2>
+                            <h4>Ingredients</h4>
+                            <ul>
+                                <li class="checked">40g Sugar</li>
+                                <li>50ml Sugar Water</li>
+                                <li>400g Brown Sugar</li>
+                            </ul>
+                            <h4>Instructions</h4>
+                            <ol>
+                                <li class="checked">
+                                    Nam porta est ut scelerisque blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                                    Yores porta est ut scelerisque blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                                    Nam porta est ut scelerisque blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                                    Yores porta est ut scelerisque blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                                </li>
+                                <li>
+                                    Queces porta est ut scelerisque blandit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+                                </li>
+                                <li>
+                                    Meras porta est ut scelerisque blandit.  
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="navi-links">
+                        <div class="circle-div left">
+                            <a>
+                                Newer
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                        </div>      
+                        <div class="circle-div right">
+                            <a>
+                                Older
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
+                            <div class="clearer">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    <script src="js/jquery-2.1.1.js"></script>
+    </body>
+</html>
