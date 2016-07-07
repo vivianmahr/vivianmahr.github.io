@@ -23,6 +23,13 @@
 	#achievements-list li div .description {
 		text-align: center;
 	}
+
+	.hexagon-picture .hexagon-rect-1 .hexagon-rect-2 
+	{
+	    background-image: url("../res/profile.jpg");
+		background-size: 60% auto;
+	}
+
 }
 /* sm */
 @media only screen and (min-width : 768px) {
@@ -47,6 +54,13 @@
 	.description h3 {
 		margin-top: 0;
 	}
+	.hexagon-picture .hexagon-rect-1 .hexagon-rect-2 
+	{
+		background-color: #aaa6a3;
+	    background-image: url("../res/profile_full.jpg");
+		background-size: 47% auto;
+	}
+
 }
 /* lg */
 @media only screen and (min-width : 1200px) {
@@ -279,12 +293,6 @@ html, body {
 {
     width: calc(var(--hex-width) + var(--border-width));
     height: calc(var(--hex-width)/2 + var(--border-width)) ;
-}
-
-.hexagon-picture .hexagon-rect-1 .hexagon-rect-2 
-{
-    background-image: url("../res/profile.jpg");
-	background-size: 60% auto;
 }
 
 .hexagon-border .hexagon-rect-1 .hexagon-rect-2 {
