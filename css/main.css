@@ -1,0 +1,130 @@
+body {
+	background: url("../images/grass.png"), url("../images/stars.png");
+	background-size: 60px, 387px;
+	background-position:  bottom;
+	background-repeat: repeat-x, repeat;  
+
+	color: #fbfbd0;
+}
+
+body {
+	background: url("../images/cloud loop.png"), url("../images/grass.png"), url("../images/stars.png");
+	background-size: 258px, 60px, 387px;
+	background-position: top, bottom;
+	background-repeat: repeat-x, repeat-x, repeat;  
+	
+	
+	background: url("../images/cloud loop.png"), url("../images/grass_big.png"), url("../images/stars.png");
+	background-size: 258px, 180px, 387px;
+	background-position: top, bottom;
+	background-repeat: repeat-x, repeat-x, repeat;  
+
+	color: #fbfbd0;
+}
+
+.cloudtext {
+	background: none;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+
+
+h1, h3{				
+	font-family: 'Playfair Display', serif;
+}
+h1, h3{
+	font-size: 50pt;
+}
+
+img, .pixel { 
+    image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
+    image-rendering: -moz-crisp-edges;          /* Firefox                        */
+    image-rendering: -o-crisp-edges;            /* Opera                          */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and eventually Safari) */
+    image-rendering: pixelated; 				/* Chrome */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+
+}
+.wrapper {
+	font-family: 'Alice', serif;
+}
+
+#vm-wrapper {
+	text-align: center;
+	padding-top: 80px;
+	width: 66%;
+}
+
+.textbox {
+	background: url("../images/border bg.png");
+	background-size: 6px;
+	padding: 10px;
+	/* border: 2px solid #33837b; */
+	display: inline-block;
+	border: 24px solid transparent;
+	border-image: url("../images/border.png");
+	border-image-slice: 8;
+	border-image-repeat: round;
+}
+
+#content-wrapper {
+	margin: 50px;
+	margin-bottom: 180px;
+	position: relative;
+	display: block;
+}
+
+#vm-wrapper h3{
+	padding-top: 8pt; 
+	font-size: 13pt;
+	clear: both;
+}
+
+#vm-wrapper ul {
+	padding-top:90px;
+}
+
+#vm-wrapper li {
+	font-size: 20pt;
+	padding: 6px;
+}
+
+#vm-wrapper a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#vm-wrapper ul li a:hover {
+	color: #33837b;
+}
+
+#title-div h1 {	
+	text-align: center;
+	padding-top: 35pt;
+}
+#title-div {
+	margin-top: 50px;
+	height: 200px;
+}
+#grass-div {
+    bottom: 0;
+	background-position: bottom;
+    width: 100%;
+}
+
+
+#trees {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 650px;
+}
+/*
+body {
+  background: url("../images/sky.png"), url("../images/mountains.png"), #f0ae66;
+  background-position: top, bottom;
+  background-repeat: repeat-x, repeat-x; }
+*/
