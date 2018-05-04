@@ -105,10 +105,12 @@ img, .pixel {
 	text-align: center;
 	padding-top: 35pt;
 }
+
 #title-div {
 	margin-top: 50px;
 	height: 200px;
 }
+
 #grass-div {
     bottom: 0;
 	background-position: bottom;
@@ -128,3 +130,46 @@ body {
   background-position: top, bottom;
   background-repeat: repeat-x, repeat-x; }
 */
+
+.project-entry {
+    border-bottom: 3px solid #364b58;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.project-entry div {
+    padding: 24px;
+    height: 100%;
+}
+
+.project-entry img{
+    height: 72px;
+    width: 72px;
+}
+
+.project-entry h2 {
+    font-size: 25pt;
+    display: inline-block;
+    padding-bottom: 12px;
+    text-decoration: underline;
+}
+
+.project-entry a {
+    color: #FFFFFF;
+}
+
+.project-entry a:visited {
+    color: #364b58;
+}
+
+.project-entry a:hover {
+    color: #f7d878;
+}
+
+.project-entry a:focus {
+    color: #aad396;
+}
+
+
+
