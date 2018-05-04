@@ -155,20 +155,24 @@ body {
     text-decoration: underline;
 }
 
-.project-entry a {
-    color: #FFFFFF;
+a {
+    color: #fbfbd0;
 }
 
-.project-entry a:visited {
-    color: #364b58;
+a:visited {
+    color: #3a816f;
 }
 
-.project-entry a:hover {
+a:hover {
     color: #f7d878;
 }
 
-.project-entry a:focus {
+a:focus {
     color: #aad396;
+}
+
+.back {
+    padding: 24px 0 0 0;
 }
 
 
