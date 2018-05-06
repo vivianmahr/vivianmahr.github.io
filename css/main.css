@@ -79,7 +79,7 @@ img, .pixel {
 }
 
 #vm-wrapper h3{
-	padding-top: 8pt; 
+	padding-top: 0; 
 	font-size: 13pt;
 	clear: both;
 }
